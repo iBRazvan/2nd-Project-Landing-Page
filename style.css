@@ -320,8 +320,8 @@ section > .content-container:nth-child(2) {
 }
 
 .dashboard {
-    width: 608px;
-    height: 340px;
+    max-width: 608px;
+    max-height: 340px;
     margin-bottom: 34px;
 }
 
