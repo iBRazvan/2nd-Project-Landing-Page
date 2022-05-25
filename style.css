@@ -28,6 +28,12 @@ h1 {
     margin: 0px 0px 10px 0px;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
 .nav {
     height: 72px;
     background: #171717 
@@ -103,6 +109,7 @@ section > .content-container:nth-child(2) {
     width: 12px;
     height: 8px;
     margin-left: 8px;
+    cursor: pointer;
 }
 
 /* ==========RIGHT SIDE========== */
@@ -145,6 +152,14 @@ section > .content-container:nth-child(2) {
     display: none;
 }
 
+/*===============================
+=========  HIDDEN MENU  =======
+===============================*/
+
+
+/* NEREZOLVAT */
+
+
 /* ==========SECTION 1========== */
 .column {
     display: flex;
@@ -160,7 +175,7 @@ section > .content-container:nth-child(2) {
     width: 50px;
     height: 50px;
     right: 1080px;
-
+    
 }
 
 
@@ -394,3 +409,72 @@ section > .content-container:nth-child(2) {
 }
 
 /* ==========/SECTION 3========== */
+
+
+/* ==========/SECTION 5========== */
+
+.quest-logo {
+    width: 151.5px;
+    height: 44px;   
+}
+
+.anima-logo {
+    width: 115.22px;
+    height: 34px;
+}
+
+.bubble-logo {
+    margin-left: 20px;
+    width: 107px;
+    height: 24px;
+}
+
+.table-font {
+    font-family: Visby CF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.09090909361839294px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.checkmark-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.table-style {
+    margin-top: 24px;
+    border-top: 2px solid #585858;
+    border-collapse: collapse;
+    max-width: 1080px;
+    width: 100%;
+
+}
+
+.no-border-top {
+    border-top:2px solid #171717;
+}
+
+table * tr {
+    border-top: 2px solid #585858;
+}
+
+tr, th ,td {
+    padding: 10px 20px;
+}
+
+tr > td:first-child {
+    padding-right: 70px;
+    width: 241px;
+    height: 48px;
+}
+
+tr > td:not(:first-child){
+    padding-left: 75px ;
+}
+
+
+/* ==========/SECTION 5========== */
